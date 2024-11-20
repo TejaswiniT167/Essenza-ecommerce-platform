@@ -1,4 +1,4 @@
-# Essenza e-commerce platform
+# Essenza
 
 Essenza is a Full stack application for a comprehensive e-commerce platform developed using the MERN stack (MongoDB, Express.js, React.js, Node.js) and styled with TailwindCSS. It offers a seamless online shopping experience with features like user authentication, product management, shopping cart functionality, secure payment processing, and analytics.
 
