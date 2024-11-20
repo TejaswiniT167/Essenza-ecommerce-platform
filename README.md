@@ -1,1 +1,1 @@
-# Essenza E-commerce Platform
+# Essenza ecommerce platform
