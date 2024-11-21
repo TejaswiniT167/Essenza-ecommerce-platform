@@ -109,7 +109,6 @@ export const getRecommendedProducts = async (req,res)=>{
             }
         ])//basically gets 3 sample products from products collection from database, 
         //fills all these fileds with 1 value for each of the three obtained products.
-        //console.log("Getting recommended products");
         res.json(products);
     }
     catch(error){
