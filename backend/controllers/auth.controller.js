@@ -101,7 +101,7 @@ export const logout= async (req,res)=>{
             await redis.del(`refresh_token:${decoded.userId}`);
         }
 
-        res.clearCookie("acccessToken");
+        res.clearCookie("accessToken");
         res.clearCookie("refreshToken");
         res.json({message: "User logged out successfully"});
     }
