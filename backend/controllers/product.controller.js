@@ -134,7 +134,7 @@ async function updateFeaturedProuctsCache(){
         //lean() method used to return plain javaScript objects instad of full Mongoose documetns.
         //This can improve perfomance greatly.
         const featuredProducts = await Product.find({isFeatured: true}).lean();
-        await redis.set('featured_products',JSON.stringigy(featuredProducts));
+        await redis.set('featured_products',JSON.stringify(featuredProducts));
      }
      catch(error){
         console.log("Error in updateFeaturedProductsCache", error.message);
